@@ -95,11 +95,6 @@ def run_spark_job(spark):
             distinct_table.original_crime_type_name
             ).count()
 
-    # TODO use udf to convert timestamp to right format on a call_date_time column
-    # converted_df = counts_df
-
-    # TODO apply aggregations using windows function to see how many calls occurred in 2 day span
-    # calls_per_2_days =
 
     # TODO write output stream
     query = counts_df \
