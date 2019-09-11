@@ -39,7 +39,7 @@ Please I want to point out the fact that by the time I did this project the data
 Actually the dataset that was given in the project resources had fields like `neighbourhood`, `room_type`, `minimum_nights`, `price` which had nothing to do with the project title itself :*SF Crime Statistics with Spark Streaming*. the fields instead had ties with something like a hotel.
 
 
-In an attempt not to modify the starter code I checked on google for the dataset that was depicted in the starter code. Fortunately for me I found one that matched with the required fields. Below is thye link tto where I took `https://www.kaggle.com/san-francisco/sf-police-calls-for-service-and-incidents/version/61`
+In an attempt not to modify the starter code I checked on google for the dataset that was depicted in the starter code. Fortunately for me I found one that matched with the required fields. Below is the link to where I took the corresponding dataset: `https://www.kaggle.com/san-francisco/sf-police-calls-for-service-and-incidents/version/61`
 Also, I had to shuffle the dataset in order to be able to work with it. I had to add underscores to some fields and changed from capital to small letters for example ;
 ```
 Address type -> address_type
