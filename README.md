@@ -33,3 +33,7 @@ Don't forget to initialize your environment variables,It will depend on your you
 ```
 export SPARK_HOME=/Users/dev/spark-2.3.0-bin-hadoop2.7
 ```
+### Data Source
+Please I want to point out the fact that by the time I did this project the database provided by udacity in the resources panel did not match with the starter code. 
+
+In an attempt not to modify the starter code I checked on google for the dataset that was depicted in the starter code. Fortunately for me I found one that matched with the required fields. Below is thye link tto where I took `https://www.kaggle.com/san-francisco/sf-police-calls-for-service-and-incidents/version/61`
