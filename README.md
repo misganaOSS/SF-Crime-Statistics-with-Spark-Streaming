@@ -34,6 +34,16 @@ Don't forget to initialize your environment variables,It will depend on your you
 export SPARK_HOME=/Users/dev/spark-2.3.0-bin-hadoop2.7
 ```
 ### Data Source
-Please I want to point out the fact that by the time I did this project the database provided by udacity in the resources panel did not match with the starter code. 
+Please I want to point out the fact that by the time I did this project the dataset provided by udacity(`AB_NYC_2019.csv`) in the resources panel did not match with the starter code. 
+
+Actually the dataset that was given in the project resources had fields like `neighbourhood`, `room_type`, `minimum_nights`, `price` which had nothing to do with the project title itself :*SF Crime Statistics with Spark Streaming*. the fields instead had ties with something like a hotel.
+
 
 In an attempt not to modify the starter code I checked on google for the dataset that was depicted in the starter code. Fortunately for me I found one that matched with the required fields. Below is thye link tto where I took `https://www.kaggle.com/san-francisco/sf-police-calls-for-service-and-incidents/version/61`
+Also, I had to shuffle the dataset in order to be able to work with it. I had to add underscores to some fields and changed from capital to small letters for example ;
+```
+Address type -> address_type
+
+Report date -> report_date
+```
+All this to perfectly match the starter code.
